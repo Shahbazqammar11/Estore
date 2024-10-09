@@ -1,6 +1,7 @@
 import { Rule } from 'sanity';
+import { defineType } from 'sanity';
 
-export default {
+export const bannerSchema = defineType({
   name: 'banner',
   title: 'Banner',
   type: 'document',
@@ -27,4 +28,4 @@ export default {
       validation: (Rule: Rule) => Rule.required(),
     },
   ],
-} ;
+} );
