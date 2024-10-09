@@ -1,5 +1,4 @@
 import Link from 'next/link'; // Import the Link component from Next.js
-import { Input } from "@/components/ui/input";
 import { ShoppingCart, User } from "lucide-react"; // Importing Lucide icons
 
 const Header = () => {
@@ -19,11 +18,7 @@ const Header = () => {
 
         {/* Search Bar */}
         <div className="w-full max-w-md mx-8">
-          <Input
-            type="text"
-            placeholder="Search for products..."
-            className="w-full rounded-full border-gray-300 shadow-sm px-4 py-2"
-          />
+         
         </div>
 
         {/* Cart and Account Icons using Lucide */}

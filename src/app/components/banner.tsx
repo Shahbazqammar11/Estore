@@ -2,7 +2,7 @@
 import { client } from '@/sanity/lib/client';
 import { urlFor } from '@/sanity/lib/image';
 import React, { useEffect, useState } from 'react';
-import { Button } from "@/components/ui/button";
+
 
 // Define the types for TypeScript
 interface Banner {
@@ -56,9 +56,7 @@ const Homebanner: React.FC = () => {
         <p className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl mt-2">
           {bannerData.description}
         </p>
-        <Button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-          Shop Now
-        </Button>
+       
       </div>
 
       {/* Right Side: Banner Image */}
