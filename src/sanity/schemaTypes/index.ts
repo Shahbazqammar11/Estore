@@ -5,7 +5,8 @@ import { topSellingSchema } from './topselling'
 import { browseByDressStyleSchema } from './dressbystyle'
 import { customerCommentSchema } from './comments'
 import { footerSchema } from './footer'
-import { bannerSchema } from './banner'
+import bannerSchema from './banner'
+
 
 
 export const schema: { types: SchemaTypeDefinition[] } = {
